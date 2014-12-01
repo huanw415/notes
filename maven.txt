@@ -1,4 +1,4 @@
-maven安装指南
+`maven安装指南`
 1. 首先到http://maven.apache.org/download.cgi下载Maven文件, 如apache-maven-3.2.3-bin.tar.gz
 2. 到Maven下载的目录下,将Maven文件解压
 	wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ tar -xvzf apache-maven-3.2.3-bin.tar.gz
@@ -24,13 +24,3 @@ maven安装指南
 		Java home: /usr/lib/jvm/java-8-oracle/jre
 		Default locale: en_US, platform encoding: UTF-8
 		OS name: "linux", version: "3.13.0-39-generic", arch: "amd64", family: "unix"
-
-		
-
-
- 
-	
-
-	
-
-	
