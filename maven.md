@@ -30,8 +30,8 @@
 
 	`显示:`  
 	`Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T04:58:10+08:00)`  
-	`Maven home: /home/wanghuan/Downloads/Maven/apache-maven-3.2.3`  
-	`Java version: 1.8.0_25, vendor: Oracle Corporation`
-  `Java home: /usr/lib/jvm/java-8-oracle/jre`
-	`Default locale: en_US, platform encoding: UTF-8`
+	`Maven home: /home/wanghuan/Downloads/Maven/apache-maven-3.2.3`
+	`Java version: 1.8.0_25, vendor: Oracle Corporation`  
+  `Java home: /usr/lib/jvm/java-8-oracle/jre`  
+	`Default locale: en_US, platform encoding: UTF-8`  
 	`OS name: "linux", version: "3.13.0-39-generic", arch: "amd64", family: "unix"`
