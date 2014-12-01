@@ -4,10 +4,10 @@ Markdown的语法全由一些符号所组成, 并受到一些 text-to-HTML 格�
 
 Makedown是兼容HTML的, 它没有想要超过HTML, 它只涵盖了HTML的一小部分. 所以不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown, 只要直接加标签就可以了.
 
-1. 请注意，在 HTML 区块标签(/<div/>、<table>、<pre>、<p> 等标签)间的 Markdown 格式语法将不会被处理。比如，你在 HTML 区块内使用 Markdown 样式的*强调*会没有效果。
+1. 请注意，在 HTML 区块标签(<div>、<table>、<pre>、<p> 等标签)间的 Markdown 格式语法将不会被处理。比如，你在 HTML 区块内使用 Markdown 样式的*强调*会没有效果。
 2. 和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签(如<span>、<cite>、<del>)间是有效的。
 
-#### 特殊字符自动转换
+#### '特殊字符自动转换'
 
 1. 在 HTML 文件中，有两个字符需要特殊处理： < 和 & 。 < 符号用于起始标签，& 符号则用于标记 HTML 实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是 &lt; 和 &amp;。
    例如:如果你要打「AT&T」 ，你必须要写成「AT&amp;T」。
