@@ -29,7 +29,7 @@
 	`指令2:  wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ mvn -v`
 
 	显示:  
-	`Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T04:58:10+08:00)`
+	`Apache Maven 3.2.3 (33f8c3e1027c3ddde99d3cdebad2656a31e8fdf4; 2014-08-12T04:58:10+08:00)`  
 	`Maven home: /home/wanghuan/Downloads/Maven/apache-maven-3.2.3`  
 	`Java version: 1.8.0_25, vendor: Oracle Corporation`  
   `Java home: /usr/lib/jvm/java-8-oracle/jre`  
