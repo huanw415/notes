@@ -108,3 +108,9 @@ Makedown是兼容HTML的, 它没有想要超过HTML, 它只涵盖了HTML的一�
     用双引号把 title 文字包起来即可。即：[链接文本](链接网址 "title")；  
     参考式格式：在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记。  
     即：[链接文本][id值]；[id值]:链接网址 "title"；
+
+`[百度](http://www.baidu.com/)  
+[百度][baidu];[baidu]:http://www.baidu.com "这是百度的链接"  `  
+
+[百度](http://www.baidu.com/)  
+[百度][baidu];[baidu]:http://www.baidu.com "这是百度的链接"  
