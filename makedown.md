@@ -113,4 +113,5 @@ Makedown是兼容HTML的, 它没有想要超过HTML, 它只涵盖了HTML的一�
 `[百度][baidu];[baidu]:http://www.baidu.com "这是百度的链接"`  
 
 [百度](http://www.baidu.com/)  
-[百度][baidu];    [baidu]:    http://www.baidu.com"这是百度的链接"  
+[百度][baidu]
+[baidu]:http://www.baidu.com "这是百度的链接"  
