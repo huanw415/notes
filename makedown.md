@@ -1,4 +1,4 @@
-Makedown是一种轻量级的标记语言, 它的目标就是实现: 易读易写, 成为一种适合于网络书写的语言.  
+Makedown是一种轻量级的标记语言, 它的目标就是实现: 易读易写, 成为一种适合于网络书写的语言.       
 Markdown的语法全由一些符号所组成, 并受到一些 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，而最大灵感来源其实是纯文本电子邮件的格式。
 
 #### Makedown是兼容HTML的, 它没有想要超过HTML, 它只涵盖了HTML的一小部分. 所以不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown, 只要直接加标签就可以了.
