@@ -2,9 +2,9 @@ Makedown是一种轻量级的标记语言, 它的目标就是实现: 易读易�
 
 Markdown的语法全由一些符号所组成, 并受到一些 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，而最大灵感来源其实是纯文本电子邮件的格式。
 
-#### Makedown是兼容HTML的, 它没有想要超过HTML, 它只涵盖了HTML的一小部分. 所以不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown, 只要直接加标签就可以了.
+Makedown是兼容HTML的, 它没有想要超过HTML, 它只涵盖了HTML的一小部分. 所以不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown, 只要直接加标签就可以了.
 
-1. 请注意，在 HTML 区块标签(<div>、<table>、<pre>、<p> 等标签)间的 Markdown 格式语法将不会被处理。比如，你在 HTML 区块内使用 Markdown 样式的*强调*会没有效果。
+1. 请注意，在 HTML 区块标签(/<div/>、<table>、<pre>、<p> 等标签)间的 Markdown 格式语法将不会被处理。比如，你在 HTML 区块内使用 Markdown 样式的*强调*会没有效果。
 2. 和处在 HTML 区块标签间不同，Markdown 语法在 HTML 区段标签(如<span>、<cite>、<del>)间是有效的。
 
 #### 特殊字符自动转换
@@ -29,4 +29,3 @@ Markdown的语法全由一些符号所组成, 并受到一些 text-to-HTML 格�
 ------------------
 ###这是标题h3
 ######这是标题h6
-`ddddddd`
