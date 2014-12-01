@@ -11,11 +11,11 @@ Makedown是兼容HTML的, 它没有想要超过HTML, 它只涵盖了HTML的一�
 
 1. 在 HTML 文件中，有两个字符需要特殊处理： < 和 & 。 < 符号用于起始标签，& 符号则用于标记 HTML 实体，如果你只是想要显示这些字符的原型，你必须要使用实体的形式，像是 &lt; 和 &amp;。
 
-   例如:如果你要打 'AT&T' ，你必须要写成'AT&amp;T'。  
+   例如:如果你要打`AT&T` ，你必须要写成`AT&amp;T`。  
    而网址中的 & 字符也要转换。比如你要链接到：  
-   'http://images.google.com/images?num=30&q=larry+bird'  
+   `http://images.google.com/images?num=30&q=larry+bird`
    你必须要把网址转换写为：
-   'http://images.google.com/images?num=30&amp;q=larry+bird'
+   `http://images.google.com/images?num=30&amp;q=larry+bird`
 2. Markdown 让你可以自然地书写字符，需要转换的由它来处理好了。如果你使用的 & 字符是 HTML 字符实体的一部分，它会保留原状，否则它会被转换成 &amp;。
 
    例如: 书写AT&T, Markdown 就会将它自动转为：AT&amp;T
