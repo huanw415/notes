@@ -15,14 +15,16 @@
 		`lrwxrwxrwx 1 wanghuan wanghuan      18 11月  3 23:05 maven -> apache-maven-3.2.3(看到此条记录,证明符号链接创建成功)`
 4. 设置环境变量M2_HOME指向符号链接maven, 并把Maven安装目录下的/bin文件加到系统环境变量PATH中  
 
-	wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ export M2_HOME=/home/wanghuan/Downloads/Maven/apache-maven-3.2.3`
+	`wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ export M2_HOME=/home/wanghuan/Downloads/Maven/apache-maven-3.2.3`  
 	`wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ export PATH=$PATH:$M2_HOME/bin`
 
 5. 使用gedit ~/.bashrc, 将上述两条命令加到系统shell脚本中.这样,每次启动一个终端,这些配置就能自动启动执行.  
 6. 至此安装完成.运行一下两条指令,检查Maven安装.  
 
-	`指令1: wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ echo $M2_HOME`
-	`显示:  /home/wanghuan/Downloads/Maven/apache-maven-3.2.3`  
+	`指令1: wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ echo $M2_HOME`  
+
+	显示:
+	`/home/wanghuan/Downloads/Maven/apache-maven-3.2.3`  
 
 	`指令2:  wanghuan@WangHuan-PC-Ubuntu:~/Downloads/Maven$ mvn -v`
 
@@ -32,4 +34,4 @@
 	`Java version: 1.8.0_25, vendor: Oracle Corporation`
   `Java home: /usr/lib/jvm/java-8-oracle/jre`
 	`Default locale: en_US, platform encoding: UTF-8`
-	`OS name: "linux", version: "3.13.0-39-generic", arch: "amd64", family: "unix"`   
+	`OS name: "linux", version: "3.13.0-39-generic", arch: "amd64", family: "unix"`
