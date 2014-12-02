@@ -62,9 +62,12 @@ Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
 ##### git status 告诉我们从上一次commit结束后, 哪些文件发生了变化
 
 ##### git add 将未追踪的文件添加到staged area
-git add untracked文件名(多个文件名时, 空格隔开)  
+git add <文件列表>  
 git add --all 添加所有发生变化的文件到staged area  
 git add . 添加所有发生变化的文件到staged area  
+git add *.txt 添加所有发生变化的.txt类型文件  
+git add docs/*.txt 添加docs文件夹下所有发生变化的.txt文件  
+git add docs/ 添加docs文件夹下所有发生变化的文件  
 
 ##### git commit -m "descriptions of changes" 描述什么发生了变化
 commit的内容应该使用一般现在时, 而不是过去时,例如:  
