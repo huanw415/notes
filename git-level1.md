@@ -1,18 +1,22 @@
 版本控制系统  
+
 解决的问题: 多个人同时操作一个file, 可以check, 然后把几个file给merge成一个.  
           他就像一个time capsule, 有它的改变日志, 包括改变的内容和改变的原因, 你可以在版本控制中看到不同的版本.  
 
 
 
-Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).  
+Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
+
 `centralized repository: 当几个人同时进行工作时, 任何一个人改变内容, 添加注释, 或者存储时, 都会改变中心仓库.`  
+
 `distributed repository: 每个人都从仓库复制了一份文件, 有助于快速commit, 并且如果其中一个人的文件破坏后, 可以重新copy一份
   从repository.`
 
-[Git官方网站](http://git-scm.com/)
+你可以从[Git官方网站](http://git-scm.com/)下载Git.
 
-##### command line
-###### help system: git help  得到一系列的指令
+#### command line
+
+##### help system: git help  得到一系列的指令
     usage: git [--version] [--help] [-C <path>] [-c name=value]  
                [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]  
                [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]  
@@ -45,3 +49,5 @@ Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
     'git help -a' and 'git help -g' lists available subcommands and some  
     concept guides. See 'git help <command>' or 'git help <concept>'  
     to read about a specific subcommand or concept.  
+
+##### git help config  可以得到更加详细的文档
