@@ -88,4 +88,9 @@ HEAD可以找到我们当前分支上的最近一次commit的地方
 
 ##### git reset --soft HEAD^ 返回到staged状态
 
+##### git reset --hard HEAD^ 取消上次的commit和所有的变化  
+git reset --hard HEAD^^ 取消上两次的commit和所有的变化   
+
 ##### git checkout file名字 可将file恢复到上次commit后的状态
+
+##### git commit --amend -m "descriptions of changes"  将new commit message添加到上一次的commit
