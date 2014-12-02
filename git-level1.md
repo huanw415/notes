@@ -67,3 +67,7 @@ git add --all 添加所有发生变化的文件到staged area
 git add . 添加所有发生变化的文件到staged area  
 
 ##### git commit -m "descriptions of changes" 描述什么发生了变化
+commit的内容应该使用一般现在时, 而不是过去时,例如:  
+`应为create readme file, 而不是created readme file`  
+
+##### git log 查看日志, 包括Author, Date, Commit
