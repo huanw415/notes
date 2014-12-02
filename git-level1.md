@@ -65,9 +65,10 @@ Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
 git add <文件列表>  
 git add --all 添加所有发生变化的文件到staged area  
 git add . 添加所有发生变化的文件到staged area  
-git add *.txt 添加所有发生变化的.txt类型文件  
+git add *.txt 添加当前文件夹下所有发生变化的.txt类型文件  
 git add docs/*.txt 添加docs文件夹下所有发生变化的.txt文件  
 git add docs/ 添加docs文件夹下所有发生变化的文件  
+git add "*.txt"  添加整个工程中发生变化的.txt文件
 
 ##### git commit -m "descriptions of changes" 描述什么发生了变化
 commit的内容应该使用一般现在时, 而不是过去时,例如:  
