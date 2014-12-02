@@ -81,4 +81,11 @@ Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
 (-)红色的表示删除的内容  
 (+)绿色表示增加的内容  
 
-*git diff --staged  可以查看staged的文件发生了什么变化* 
+*git diff --staged  可以查看staged的文件发生了什么变化*
+
+##### git reset HEAD file名字 把file变成unstaged
+HEAD可以找到我们当前分支上的最近一次commit的地方  
+
+##### git reset --soft HEAD^ 返回到staged状态
+
+##### git checkout file名字 可将file恢复到上次commit后的状态
