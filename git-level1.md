@@ -51,3 +51,5 @@ Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
     to read about a specific subcommand or concept.  
 
 ##### git help config  可以得到更加详细的文档
+安装好Git 后的第一件事情就是设置一些基本配置.
+  `git config --global user.name "adabeauty"``
