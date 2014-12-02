@@ -16,7 +16,7 @@ Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
 
 #### command line
 
-##### help system: git help  得到一系列的指令
+##### git help  得到一系列的指令
     usage: git [--version] [--help] [-C <path>] [-c name=value]  
                [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]  
                [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]  
@@ -51,5 +51,16 @@ Git 是由 Linus 发明的, 是一个DVCS(Distributed Version Control System).
     to read about a specific subcommand or concept.  
 
 ##### git help config  可以得到更加详细的文档
-安装好Git 后的第一件事情就是设置一些基本配置.
-  `git config --global user.name "adabeauty"``
+安装好Git 后的第一件事情就是设置一些基本配置.  
+  `git config --global user.name "user_name"`  
+  `git config --global user.email "user_email@outlook.com"`
+  `git config --global color.ui true`
+
+##### git init 创建一个本地的Git仓库
+此时会在当前文件夹下生成一个.git的隐藏文件夹, 这个即是本地的仓库, 用来存储.  
+
+##### git status 告诉我们从上一次commit结束后, 哪些文件发生了变化
+
+##### git add untracked文件名  将未追踪的文件天价到staged area
+
+##### git commit -m "descriptions of changes" 描述什么发生了变化
