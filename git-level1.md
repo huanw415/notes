@@ -100,3 +100,7 @@ git reset --hard HEAD^^ 取消上两次的commit和所有的变化
 ##### git remote -v 展示远端的仓库
 
 ##### git push -u origin master (master->local brach to push, oringin->远端仓库的名字)
+
+##### git clone URL 文件夹名称(例: demo)  将URL下的内容克隆到本地的文件夹(demo)中
+
+##### 
