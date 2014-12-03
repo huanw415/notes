@@ -103,4 +103,8 @@ git reset --hard HEAD^^ 取消上两次的commit和所有的变化
 
 ##### git clone URL 文件夹名称(例: demo)  将URL下的内容克隆到本地的文件夹(demo)中
 
-##### 
+##### git brach 分支名称(例: cat) 创建分支(cat)
+
+##### git branch 查看分支情况(`*为当前所在分支`)
+
+##### git checkout 分支名称(例: cat) 跳转到此分支(cat)上
