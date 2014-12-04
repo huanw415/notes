@@ -110,6 +110,7 @@ git reset --hard HEAD^^ 取消上两次的commit和所有的变化
 3. git checkout 分支名称(例: cat) 跳转到此分支(cat)上  
 4. git merge 分支名称(例: cat) 将当前分支和选择的分支(cat)合并  
 5. git checkout -b 新分支名称(cat) 创建新分支(cat),并跳转到该分支上
+6. git push origin(remote URL的名字) 新分支名称(cat)  
 
 ##### git branch 查看分支情况(`*为当前所在分支`)
 
