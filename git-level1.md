@@ -115,3 +115,5 @@ git reset --hard HEAD^^ 取消上两次的commit和所有的变化
 7. git checkout -b 新分支名称(cat) 创建新分支(cat),并跳转到该分支上
 8. git push origin(remote URL的名字) 新分支名称(cat)  将新分支cat push到了github上, 然后就可以track cat分支  
 9. git push origin(remote端名称) :想要删除的分支名称(cat) 将删除remote端的这个分支(cat)  
+10. git branch -d 分支名称(cat) 删除本地的此分支(cat)  
+`-D 如果此分支还没有合并, 需要强制删除时使用`  
