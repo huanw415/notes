@@ -117,3 +117,10 @@ git reset --hard HEAD^^ 取消上两次的commit和所有的变化
 9. git push origin(remote端名称) :想要删除的分支名称(cat) 将删除remote端的这个分支(cat)  
 10. git branch -d 分支名称(cat) 删除本地的此分支(cat)  
 `-D 如果此分支还没有合并, 需要强制删除时使用`  
+11. git remote prune origin 清楚已经被在remote端删除的分支  
+
+##### tag操作(**tag大部分情况被用于标记发布版本**)
+1. git tag 查看所有的版本情况  
+2. git checkout 版本名称 checkout此版本到commit  
+3. git tag -a 版本名称 -m "commit内容"
+4. git push --tag push这个tag到remote端  
