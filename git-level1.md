@@ -110,16 +110,8 @@ git reset --hard HEAD^^ 取消上两次的commit和所有的变化
 3. git branch -r 查看remote端分支情况  
 4. git remote show origin(remote端的名字)  展示local branch, 以及remote端的合并情况  
 5. git checkout 分支名称(例: cat) 跳转到此分支(cat)上  
+`在当前分支上创建的文件不会在另一个分支上显示`  
 6. git merge 分支名称(例: cat) 将当前分支和选择的分支(cat)合并  
 7. git checkout -b 新分支名称(cat) 创建新分支(cat),并跳转到该分支上
 8. git push origin(remote URL的名字) 新分支名称(cat)  将新分支cat push到了github上, 然后就可以track cat分支  
 9. git push origin(remote端名称) :想要删除的分支名称(cat) 将删除remote端的这个分支(cat)  
-
-##### git branch 查看分支情况(`*为当前所在分支`)
-
-##### git checkout 分支名称(例: cat) 跳转到此分支(cat)上  
-`在当前分支上创建的文件不会在另一个分支上显示`
-
-##### git merge 分支名称(例: cat) 将当前分支和选择的分支(cat)合并
-
-##### git checkout -b 新分支名称(cat) 创建新分支(cat),并跳转到该分支上
